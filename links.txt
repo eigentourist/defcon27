@@ -1,3 +1,7 @@
+=============================================================================
+Installers for Hacking With Monads: Functional Programming for the Blue Team
+=============================================================================
+
 Python 3.7.4 Installer for Windows x86_64:
 https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe
 
@@ -27,3 +31,5 @@ https://mh-nexus.de/en/downloads.php?product=HxD20
 
 Mac: Hex Fiend
 http://ridiculousfish.com/hexfiend/
+
+=============================================================================
