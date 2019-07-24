@@ -1,0 +1,29 @@
+Python 3.7.4 Installer for Windows x86_64:
+https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe
+
+Python 3.7.4 Installer for Mac OS (64-bit):
+https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg
+
+Python 3 Installation for Linux:
+https://docs.python-guide.org/starting/install3/linux
+
+Python 3.7.4 Binary Checksums and Various Installers:
+https://www.python.org/downloads/release/python-374
+
+================================================================
+
+Haskell Platform for Windows:
+https://www.haskell.org/platform/windows.html
+
+Haskell Stack for Mac, Linux and Unix:
+https://docs.haskellstack.org/en/stable/README
+
+================================================================
+
+Hex Editors:
+
+Windows: HxD
+https://mh-nexus.de/en/downloads.php?product=HxD20
+
+Mac: Hex Fiend
+http://ridiculousfish.com/hexfiend/
