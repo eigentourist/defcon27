@@ -1,5 +1,4 @@
 import psutil
-from pymonad.Maybe import *
 
 #
 # Get list of running process sorted by Memory Usage
@@ -24,11 +23,6 @@ def getProcessList():
  
     # Sort list of dict by key vms i.e. memory usage
     proclist = sorted(proclist, key=lambda proc: proc['vms'], reverse=True)
-
-    if len(proclist) > 0:
-        return Just(proclist)
-    else:
-        return Nothing
 
 
 print(getProcessList())
