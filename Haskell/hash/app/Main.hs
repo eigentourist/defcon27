@@ -14,5 +14,5 @@ main = do
     case args of
         [] -> do
             putStrLn exitMsg
-        [x] -> scan x
-        args -> scan $ show $ head args
+        [x] -> hashfiles x
+        args -> hashfiles $ show $ head args
