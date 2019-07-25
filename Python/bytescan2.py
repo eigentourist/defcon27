@@ -3,7 +3,7 @@ import os
 import mmap
 import re
 
-bytestr = b'\x48\x8d\x45\xf0\x4c\x39\xf8\x72'
+bytestr = b'\x6f\x73\x2e\x70\x61\x74\x68\x2e'
 
 def scanfiles(path):
     for entry in os.scandir(path):
