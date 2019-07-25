@@ -32,4 +32,9 @@ https://mh-nexus.de/en/downloads.php?product=HxD20
 Mac: Hex Fiend
 http://ridiculousfish.com/hexfiend/
 
+Linux:
+Debian (Ubuntu et al.): sudo apt-get install hexedit
+Redhat (Fedora et al.): sudo yum install hexedit
+
+Usage: hexedit <filename>
 =============================================================================
