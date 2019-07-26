@@ -14,13 +14,12 @@ def scanfile(filename):
                 if match:
                     print(bytestr.hex() + " found in " + filename)
 
-def processfile = scanfile
 
-def scanfiles(path):
+def scanfiles(path, fn):
     for entry in os.scandir(path):
         if entry.is_file():
-            processfile(os.path.join(path, entry.name))
-        else:
+            fn(os.path.join(path, entry.name))
+        elif entry.is_dir:
             scanfiles(entry.path)
 
 
@@ -31,4 +30,4 @@ if len(sys.argv) < 2:
     exit(0)
 
 rootpath = sys.argv[1]
-scanfiles(rootpath)
+scanfiles(rootpath, scanfile)
