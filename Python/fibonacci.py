@@ -24,6 +24,15 @@ def fib_iterative(n):
               return fn
 
 
+# Iterative Fibonacci version 2
+# From https://www.bogotobogo.com/python/python_generators.php
+def fib_iterative2(n):
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a + b
+
+
 def fib_recursive(n):
     if n == 0:return 0
     if n == 1:return 1
@@ -37,7 +46,17 @@ for i in range(0, 40):
 
 end_time = time.perf_counter()
 
-print("\nElapsed time for iterative version: " + str(end_time - start_time) + " seconds.\n")
+print("\nElapsed time for iterative version 1: " + str(end_time - start_time) + " seconds.\n")
+
+
+start_time = time.perf_counter()
+
+for i in range(0, 40):
+    print(str(fib_iterative2(i)), end=" ")
+
+end_time = time.perf_counter()
+
+print("\nElapsed time for iterative version 2: " + str(end_time - start_time) + " seconds.\n")
 
 
 start_time = time.perf_counter()
