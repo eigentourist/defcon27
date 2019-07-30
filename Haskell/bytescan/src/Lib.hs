@@ -1,9 +1,7 @@
 
 module Lib
     ( hello,
-      walk,
-      scan,
-      hashfiles
+      scan
     ) where
 
 import Control.Monad (forM_, when)
@@ -38,24 +36,6 @@ scanfile path = do
     return (not (null offsets))
 
 
-hashfile :: HashAlgorithm ha => FilePath -> IO (Digest ha)
-hashfile fp = withBinaryFile fp ReadMode $ \h ->
-  let loop context = do
-        chunk <- BS.hGetSome h 4096
-        if BS.null chunk
-          then return $ hashFinalize context
-          else loop $! hashUpdate context chunk
-   in loop hashInit
-
-
-
-walk :: String -> IO ()
-walk path = pathWalk path $ \root dirs files -> do
-    forM_ files $ \file ->
-        when (".hs" `isSuffixOf` file) $ do
-            putStrLn $ joinPath [root, file]
-
-
 scan :: String -> IO ()
 scan path = pathWalk path $ \root dirs files -> do
     forM_ files $ \file -> do
@@ -63,10 +43,3 @@ scan path = pathWalk path $ \root dirs files -> do
         when (result) $ do
             let msg = prettyPrint srchstr ++ " found in " ++ joinPath [root, file]
             putStrLn msg
-
-hashfiles :: String -> IO ()
-hashfiles path = pathWalk path $ \root dirs files -> do
-    forM_ files $ \file -> do
-        digest <- hashfile $ joinPath [root, file]
-        putStrLn $ show (joinPath [root, file]) ++ " hash: " ++ show (digest :: Digest SHA256)
-

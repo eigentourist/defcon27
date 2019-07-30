@@ -24,7 +24,7 @@ def fib_iterative(n):
               return fn
 
 
-# Iterative Fibonacci version 2
+# Iterative Fibonacci, Generator version
 # From https://www.bogotobogo.com/python/python_generators.php
 def fib_generator(n):
     a, b = 0, 1
