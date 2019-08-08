@@ -45,7 +45,7 @@ def scanfiles(path, fn):
         if entry.is_file():
             fn(os.path.join(path, entry.name)).fmap(lambda n: print(n))
         elif entry.is_dir:
-            scanfiles(entry.path)
+            scanfiles(entry.path, fn)
 
 
 """ Main Program """
