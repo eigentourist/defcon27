@@ -1,6 +1,5 @@
 import psutil
 
-
 #
 # Get list of running process sorted by Memory Usage
 # https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage
@@ -24,9 +23,6 @@ def getProcessList():
  
     # Sort list of dict by key vms i.e. memory usage
     proclist = sorted(proclist, key=lambda proc: proc['vms'], reverse=True)
- 
-    return proclist
 
 
 print(getProcessList())
-
