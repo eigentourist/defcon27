@@ -1,3 +1,7 @@
+# Demo of functions as first-class objects
+# Hacking With Monads - Def Con 27 Workshop
+# August 10, 2019
+
 import sys
 import os
 import mmap
