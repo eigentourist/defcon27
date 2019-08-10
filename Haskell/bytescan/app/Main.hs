@@ -1,3 +1,10 @@
+-- Hacking With Monads:
+-- Functional Programming for the Blue Team
+-- A Def Con 27 Workshop August 10, 2019
+
+-- Recursively search all files inside a
+-- path for a given sequence of bytes
+
 
 module Main where
 

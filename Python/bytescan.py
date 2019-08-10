@@ -1,3 +1,11 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Demo of hidden functional features in Python
+# Recursively search for files with a given
+# byte sequence, using os.walk.
+
 import sys
 import os
 import mmap

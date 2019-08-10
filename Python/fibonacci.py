@@ -1,3 +1,6 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
 
 # Fibonacci Sequence
 # Iterative and Recursive Solutions

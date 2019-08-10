@@ -1,3 +1,11 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Recursively compute file hashes using scandir
+# Demonstrate functions as first-class objects
+# by dynamically selecting hash function
+
 import sys
 import os
 import mmap

@@ -1,9 +1,14 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Get list of running process sorted by Memory Usage
+# Small demonstration of lambda expressions
+# https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage
+
+
 import psutil
 
-#
-# Get list of running process sorted by Memory Usage
-# https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage
-#
 
 def getProcessList():
 

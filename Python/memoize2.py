@@ -1,3 +1,9 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Demonstration of memoization technique
+# using functools lru_cache
 
 # Memoize code courtesy of
 # Nabil Khaja, 2017

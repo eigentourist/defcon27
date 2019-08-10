@@ -1,6 +1,9 @@
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Demonstration of memoization technique
 # Module for demonstrating Map and Reduce Functions
-# Hacking With Monads, Def Con 27 Workshop
-# August 10, 2019
 
 import sys
 

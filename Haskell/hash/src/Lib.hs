@@ -1,3 +1,10 @@
+-- Hacking With Monads:
+-- Functional Programming for the Blue Team
+-- A Def Con 27 Workshop August 10, 2019
+
+-- Recursively generate hashes for all files
+-- within a given file system path
+
 
 module Lib
     ( 

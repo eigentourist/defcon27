@@ -1,6 +1,12 @@
-# Demo of functions as first-class objects
-# Hacking With Monads - Def Con 27 Workshop
-# August 10, 2019
+# Hacking With Monads:
+# Functional Programming for the Blue Team
+# A Def Con 27 Workshop August 10, 2019
+
+# Recursively do something to all the files
+# inside a given file system path, modeled
+# after bytescan.py examples.
+
+# Dynamic selection of processing function
 
 import sys
 import os
