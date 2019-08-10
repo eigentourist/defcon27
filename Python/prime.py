@@ -6,7 +6,8 @@
 
 import sys
 
-
+# Returns true if n is prime,
+# otherwise returns false.
 def isPrime(n) : 
   
     # Corner cases 
@@ -28,6 +29,11 @@ def isPrime(n) :
   
     return True
   
+
+# Returns a tuple containing
+# the input parameter (n) and a
+# boolean (true if n is prime,
+# otherwise false.)
 
 def isPrime2(n) : 
   
