@@ -1,3 +1,7 @@
+# Module for demonstrating Map and Reduce Functions
+# Hacking With Monads, Def Con 27 Workshop
+# August 10, 2019
+
 import sys
 
 
