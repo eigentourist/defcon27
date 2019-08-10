@@ -2,7 +2,6 @@
 # Functional Programming for the Blue Team
 # A Def Con 27 Workshop August 10, 2019
 
-# Demonstration of memoization technique
 # Module for demonstrating Map and Reduce Functions
 
 import sys
