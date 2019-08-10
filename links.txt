@@ -1,5 +1,6 @@
 =============================================================================
 Installers for Hacking With Monads: Functional Programming for the Blue Team
+                 Def Con 27 Workshop   August 10, 2019
 =============================================================================
 
 Python 3.7.4 Installer for Windows x86_64:
